@@ -1,0 +1,43 @@
+/* src/components/TodoForm.css */
+.todo-form {
+  display: flex;
+  margin-bottom: 25px;
+  gap: 10px;
+}
+
+.todo-input {
+  flex-grow: 1; /* Takes up all available space */
+  padding: 12px 15px;
+  border: 2px solid var(--color-border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: var(--color-card-bg);
+  color: var(--color-text);
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.todo-input:focus {
+  border-color: var(--color-primary);
+  outline: none;
+}
+
+.todo-button {
+  padding: 12px 20px;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  white-space: nowrap; /* Keep button text on one line */
+}
+
+.todo-button:hover {
+  background-color: color-mix(in srgb, var(--color-primary) 80%, black);
+}
+
+.todo-button:active {
+  transform: scale(0.98);
+}

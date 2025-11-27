@@ -1,0 +1,60 @@
+/* src/index.css */
+
+:root {
+  /* Light Mode Variables */
+  --color-background: #f4f7f6;
+  --color-text: #17181f;
+  --color-card-bg: #ffffff;
+  --color-primary: #6c63ff; /* A nice purple for accents */
+  --color-shadow: rgba(0, 0, 0, 0.05);
+  --color-border: #e0e0e0;
+}
+
+/* Dark Mode Variables */
+.dark-mode {
+  --color-background: #17181f;
+  --color-text: #f4f7f6;
+  --color-card-bg: #2d303f;
+  --color-primary: #a09bff; /* Lighter purple for dark mode visibility */
+  --color-shadow: rgba(0, 0, 0, 0.4);
+  --color-border: #3a3f47;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  /* Smooth transition for theme change */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#root {
+  width: 100%;
+  max-width: 600px; /* Max width for the Todo container */
+  padding: 0 20px;
+}
+
+.todo-app {
+  background: var(--color-card-bg);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px var(--color-shadow);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+h1 {
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+}

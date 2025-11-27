@@ -1,0 +1,17 @@
+/* src/components/TodoList.css */
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.no-tasks {
+  text-align: center;
+  padding: 30px;
+  color: var(--color-primary);
+  font-style: italic;
+  font-size: 1.1rem;
+  background-color: var(--color-card-bg);
+  border: 1px dashed var(--color-border);
+  border-radius: 8px;
+}
