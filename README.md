@@ -19,16 +19,6 @@ A modern, dynamic, and fully functional task management application built with R
 * **Styling:** CSS
 * **Development Tools:** Git, npm
 
-## 📦 Installation and Setup
 
-Follow these steps to get a copy of the project running on your local machine.
 
-### Prerequisites
 
-You need to have [Node.js](https://nodejs.org/) installed, which includes npm.
-
-### 1. Clone the Repository
-
-```bash
-git clone [https://github.com/elhamsaid36/todo-task-manager.git](https://github.com/elhamsaid36/todo-task-manager.git)
-cd todo-task-manager
