@@ -1,16 +1,34 @@
-# React + Vite
+# 🚀 Stylish React Todo Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, dynamic, and fully functional task management application built with React. This web app features essential CRUD operations (Create, Read, Update, Delete) and includes a seamless dark mode toggle for a polished user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+* **Full CRUD Functionality:** Easily add, view, edit, and delete tasks.
+* **Persistent Data:** Tasks and theme preference are saved locally using `localStorage`.
+* **Dynamic Dark Mode:** Toggle between light and dark themes with a smooth transition.
+* **Modern Design:** Built with custom CSS for a clean, stylish interface.
+* **React Hooks:** Utilizes `useState` and `useEffect` for robust state management.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technology Stack
 
-## Expanding the ESLint configuration
+* **Frontend Framework:** React (with Vite)
+* **State Management:** React Hooks (`useState`, `useEffect`)
+* **Styling:** CSS
+* **Development Tools:** Git, npm
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation and Setup
+
+Follow these steps to get a copy of the project running on your local machine.
+
+### Prerequisites
+
+You need to have [Node.js](https://nodejs.org/) installed, which includes npm.
+
+### 1. Clone the Repository
+
+```bash
+git clone [https://github.com/elhamsaid36/todo-task-manager.git](https://github.com/elhamsaid36/todo-task-manager.git)
+cd todo-task-manager
